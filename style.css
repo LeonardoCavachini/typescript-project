@@ -1,0 +1,54 @@
+body {
+    background-image: url('./img/esta_1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table, th, td {
+    border: 1px solid black;
+}
+    
+table {
+border-collapse: collapse;
+margin: auto;
+}
+
+th, td{
+padding: 10px;
+text-align: center;
+width: 120px;
+font-family: monospace;
+font-size: 14px;
+}
+
+th{
+font-weight: 700;
+font-size: 16px;
+font-family: monospace;
+}
+
+
+tr:nth-child(even) {
+background-color: #D3D3D3;
+}
+
+tr:hover:nth-child(1n+2) {
+background-color: #BEBEBE;
+color: #fff;
+}
+div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+    margin: 25px auto;
+    
+}
+div input, button {
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 700;
+}
+div input {
+    width: 200px;
+}
+    
